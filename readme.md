@@ -9,11 +9,8 @@
 ## Installation
 
 ```bash
-# using npm
-npm install -g @sliit-foss/templates
-
-# using yarn
-yarn global add @sliit-foss/templates
+# using pnpm
+pnpm link --global
 ```
 
 ## Usage
