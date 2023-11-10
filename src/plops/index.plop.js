@@ -2,13 +2,9 @@ import { launchPlop } from "../index.js";
 
 const stacks = [
   {
-    name: "Node.js",
+    name: "Rest-API",
     path: "node"
   },
-  {
-    name: "Flutter",
-    path: "flutter"
-  }
 ];
 
 export default function (plop) {

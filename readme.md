@@ -9,8 +9,12 @@
 ## Installation
 
 ```bash
-# using pnpm
+# using pnpm link
 pnpm link --global
+
+# using npm pack
+npm pack 
+npm install --global {tarball}
 ```
 
 ## Usage
