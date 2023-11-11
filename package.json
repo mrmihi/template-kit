@@ -1,6 +1,6 @@
 {
   "name": "template-kit",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "A simple template generator which can be invoked via the CLI",
   "main": "src/index.js",
   "bin": {
@@ -8,12 +8,12 @@
   },
   "preferGlobal": true,
   "scripts": {
-    "build": "echo \"@sliit-foss/templates -> building skipped\"",
+    "build": "echo \"building skipped\"",
     "bump-version": "bash ../../scripts/bump-version.sh --name=@sliit-foss/templates",
     "generate": "plop --plopfile src/index.js",
     "lint": "bash ../../scripts/lint.sh",
     "release": "bash ../../scripts/release.sh",
-    "test": "echo \"@sliit-foss/templates -> testing skipped\""
+    "test": "echo \"testing skipped\""
   },
   "type": "module",
   "dependencies": {
@@ -22,17 +22,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sliit-foss/npm-catalogue.git"
+    "url": "git+https://github.com/mrmihi/template-kit.git"
   },
-  "homepage": "https://github.com/sliit-foss/npm-catalogue/blob/main/packages/templates/readme.md",
+  "homepage": "https://github.com/mrmihi/tempalte-kit/blob/main/readme.md",
   "keywords": [
     "utilities",
     "template-generator"
   ],
-  "author": "SLIIT FOSS",
+  "author": "mrmihi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sliit-foss/npm-catalogue/issues"
+    "url": "https://github.com/mrmihi/template-kit/issues"
   },
   "files": [
     "src/**/**",
