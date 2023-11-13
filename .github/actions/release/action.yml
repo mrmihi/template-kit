@@ -49,8 +49,8 @@ runs:
 
     - name: Publish packages on NPM
       run: |
-        pnpm --filter @sliit-foss/automatic-versioning build && npm i -g ./packages/automatic-versioning
-        pnpm release
+        npm i -g @sliit-foss/automatic-versioning
+        pnpm publish
       shell: bash
 
     - name: Cleanup
