@@ -2,8 +2,12 @@ import { launchPlop } from "../index.js";
 
 const stacks = [
   {
-    name: "Rest-API",
+    name: "Node.js",
     path: "node"
+  },
+  {
+    name: "Go",
+    path: "go"
   },
 ];
 
