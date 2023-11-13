@@ -32,4 +32,4 @@ Heavily Inspired by [@sliit-foss/templates](https://www.npmjs.com/package/@sliit
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0)
