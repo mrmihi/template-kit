@@ -13,7 +13,9 @@
     "generate": "plop --plopfile src/index.js",
     "lint": "bash ../../scripts/lint.sh",
     "release": "bash ../../scripts/release.sh",
-    "test": "echo \"testing skipped\""
+    "test": "echo \"testing skipped\"",
+    "submodules:load": "git submodule update --init",
+    "submodules:sync": "git submodule update --recursive --remote"
   },
   "type": "module",
   "dependencies": {
