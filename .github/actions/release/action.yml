@@ -37,15 +37,15 @@ runs:
       run: pnpm submodules:load
       shell: bash
 
-    # - name: Populate prerequisities
-    #   run: |
-    #     echo "{\"release_tag\":\"$TAG\"}" > cache-control.json
-    #     for dir in packages plugins; do
-    #       cd "$dir" && for p in */; do
-    #         cp ../{.npmignore,LICENSE,cache-control.json} "$p"
-    #       done && cd ..
-    #     done
-    #   shell: bash
+    - name: Populate prerequisities
+      run: |
+        echo "{\"release_tag\":\"$TAG\"}" > cache-control.json
+        for dir in packages plugins; do
+          cd "$dir" && for p in */; do
+            cp ../{.npmignore,LICENSE,cache-control.json} "$p"
+          done && cd ..
+        done
+      shell: bash
 
     - name: Publish packages on NPM
       run: |
