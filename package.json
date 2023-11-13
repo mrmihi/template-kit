@@ -9,7 +9,7 @@
   "preferGlobal": true,
   "scripts": {
     "build": "echo \"building skipped\"",
-    "bump-version": "bash ../../scripts/bump-version.sh --name=@sliit-foss/templates",
+    "bump-version": "bash ../../scripts/bump-version.sh --name=@mrmihi/template-kit",
     "generate": "plop --plopfile src/index.js",
     "lint": "bash ../../scripts/lint.sh",
     "release": "bash ../../scripts/release.sh",
@@ -30,7 +30,7 @@
     "template-generator"
   ],
   "author": "mrmihi",
-  "license": "MIT",
+  "license": "GNU GPLv3",
   "bugs": {
     "url": "https://github.com/mrmihi/template-kit/issues"
   },
