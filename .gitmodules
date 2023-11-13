@@ -2,6 +2,7 @@
 [submodule "src/stacks/node/express-template"]
 	path = src/stacks/node/express-template
 	url = https://github.com/mrmihi/express-template.git
+
 [submodule "src/stacks/go/go-template"]
 	path = src/stacks/go/go-template
 	url = https://github.com/mrmihi/go-template.git
