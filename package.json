@@ -1,5 +1,5 @@
 {
-  "name": "template-kit",
+  "name": "@mrmihi/template-kit",
   "version": "1.0.0",
   "description": "A simple template generator which can be invoked via the CLI",
   "main": "src/index.js",

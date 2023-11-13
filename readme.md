@@ -1,7 +1,5 @@
 # template-kit
 
-## Heavily Inspired by [@sliit-foss/templates](https://www.npmjs.com/package/@sliit-foss/templates)
-
 ### A simple template generator which can be invoked via the CLI
 
 <br/>
@@ -9,6 +7,9 @@
 ## Installation
 
 ```bash
+# npm registry
+pnpm @mrmihi/template-kit
+
 # using pnpm link
 pnpm link --global
 
@@ -24,3 +25,11 @@ npm install --global {tarball}
 ```bash
 sft
 ```
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+Heavily Inspired by [@sliit-foss/templates](https://www.npmjs.com/package/@sliit-foss/templates)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
