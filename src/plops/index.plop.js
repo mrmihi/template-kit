@@ -9,6 +9,10 @@ const stacks = [
     name: "Go",
     path: "go"
   },
+  {
+    name: "Angular",
+    path: "angular"
+  },
 ];
 
 export default function (plop) {
